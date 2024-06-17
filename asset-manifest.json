@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TransformText_React_App/static/css/main.abb0ff4d.css",
+    "main.js": "/TransformText_React_App/static/js/main.ce6e732e.js",
+    "static/js/453.ed3810f9.chunk.js": "/TransformText_React_App/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/TransformText_React_App/index.html",
+    "main.abb0ff4d.css.map": "/TransformText_React_App/static/css/main.abb0ff4d.css.map",
+    "main.ce6e732e.js.map": "/TransformText_React_App/static/js/main.ce6e732e.js.map",
+    "453.ed3810f9.chunk.js.map": "/TransformText_React_App/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abb0ff4d.css",
+    "static/js/main.ce6e732e.js"
+  ]
+}
