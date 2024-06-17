@@ -1,0 +1,21 @@
+.backgroundColor-dark {
+    background-color: #0d1b3b;
+    color: white;
+    outline: none;
+    ::placeholder {
+        color: white;
+    }
+}
+.backgroundColor-dark:focus {
+    background-color: #0d1b3b;
+    color: white;
+    outline: none;
+    ::placeholder {
+        color: white;
+    }
+}
+
+.backgroundColor-light {
+    background-color: white;
+    color: black;
+}
