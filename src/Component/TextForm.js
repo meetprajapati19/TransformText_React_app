@@ -18,14 +18,18 @@ export default function TextForm(props) {
   };
 
   const handleCapitalizedClick = () => {
-    let CapitalizedText = Text.split(" ")
-      .map((word) => {
-        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-      })
-      .join(" ");
+    let CapitalizedText = Text.split("\n")
+      .map(line => 
+        line.split(" ")
+          .map(word => {
+            return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+          })
+          .join(" ")
+      )
+      .join("\n");
+  
     SetText(CapitalizedText);
-    props.ShowAlert("Converted first character in capital of each word","sucess");
-
+    props.ShowAlert("Converted first character in capital of each word", "success");
   };
 
   const handleSentenceClick = () => {
